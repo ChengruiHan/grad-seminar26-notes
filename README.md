@@ -10,6 +10,7 @@ A collection of reading notes and seminar presentations from the 2026 Graduate S
 | Scaling Laws: From Training to Inference | [View Notes](https://github.com/ChengruiHan/Grad-Seminar26-Notes/blob/main/Scaling%20Laws.pdf) |
 | DETR Series for Object Detection | [View Notes](https://github.com/ChengruiHan/Grad-Seminar26-Notes/blob/main/DETR%20Series%20for%20Object%20Detection.pdf) |
 | Is Harness All You Need? | [View Notes](https://github.com/ChengruiHan/Grad-Seminar26-Notes/blob/main/Harness.pdf) |
+| Evolution of Vision-Language-Action (VLA) Architectures | [View Slides](Evolution%20of%20VLA%20Architectures.pdf) |
 
 ## Summaries
 
@@ -17,3 +18,4 @@ A collection of reading notes and seminar presentations from the 2026 Graduate S
 - **Scaling Laws: From Training to Inference**: Connects power-law scaling for language-model training (Kaplan), compute-optimal model/data allocation (Chinchilla), and inference-time compute scaling. Compares how to allocate a fixed compute budget across training and reasoning.
 - **DETR Series for Object Detection**: Traces the move from anchor/proposal-based detection to end-to-end set prediction with DETR, then to DINO's improved query initialization and denoising training, and Grounding DINO's open-vocabulary detection through text-conditioned categories.
 - **Is Harness All You Need?**: Reviews agent harness mechanisms from frameworks such as LangChain and LangGraph to Claude Code, including action loops, tool execution, planning, context, and persistent memory. Concludes with how harness design shapes agent interaction and Agentic RL, and how to evaluate task quality alongside resource cost.
+- **Evolution of Vision-Language-Action (VLA) Architectures**: Compares OpenVLA, π₀, π₀-FAST, π₀.₅, and π₀.₇ in terms of action representation, training objectives, and closed-loop inference. Covers discrete action tokenization, flow matching, hierarchical control, and real-time chunking (RTC).
